@@ -1,0 +1,154 @@
+
+*
+{
+    font-size: medium;
+    font-family: "Roboto", sans-serif
+}
+
+body{
+    background: rgb(241,241,241);
+}
+
+/* .Search{
+
+  border-collapse: collapse; 
+  margin-top: 50px; 
+  
+} */
+
+#searchinput{
+    font-size: larger;
+    width: 30%;
+   }
+
+   #searchButton{
+    padding: 12px;
+    background-color: rgb(8,149,135);
+    color:white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+h3{
+    color: rgb(8,149,135);
+    font-size: large;
+}
+.Search th, td {  
+    border: 1px solid #ddd;  
+    padding: 8px;  
+    text-align: left;  
+    }  
+      
+    .Search th {  
+    background: rgb(8,149,135);  
+  
+    color: white;  
+    }  
+
+
+#container{
+    display: flex;
+    flex-direction:row;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+    form{
+    width: 300px;
+    margin: 20px auto;
+    padding-right : 50px;
+    padding-top : 20px;
+    padding-left : 50px;
+    border-radius :10px;
+    background-color: white;
+    z-index: -1;
+
+   
+}
+
+.DB{
+    padding-left: 100px;
+}
+
+
+    
+label{
+    display:block;
+    margin-top: 5px;
+    width: 100%;
+
+}
+
+#carForm input{
+    display:block;
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border: 0;
+
+}
+h1{
+    text-align: center  ;
+    color: rgb(8,149,135);
+    font-size: large;
+
+}
+
+#carForm button{
+    padding: 12px;
+    background-color: rgb(8,149,135);
+    color:white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.DB {  
+    border-collapse: collapse;  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+    }  
+      
+    .DB th, td {  
+    /* border: 1px solid #a44a3f;   */
+    padding: 8px;  
+    text-align: left;  
+    }  
+      
+    .DB th {  
+    background-color: rgb(8,149,135);  
+    color: white;  
+    
+    }  
+
+    /* .DB tr:hover {background-color: #f6f4d2;} */
+
+  
+
+   h2{
+    text-align: center;
+    
+    color: rgb(8,149,135);
+    font-size: large;
+   }
+
+   .OriginalPrice{
+    text-decoration: line-through;
+    color: red;
+   }
+
+.DiscountedPrice
+{
+    color: green;
+font-weight: bold;
+}
+

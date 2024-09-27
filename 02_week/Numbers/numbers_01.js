@@ -13,7 +13,7 @@ convertNumberToString(25);
 
 function convertStringToNumber(string) {
 
-    return parseInt(string); // return +string also works
+    return +(string); // return +string also works
 
 }
 convertStringToNumber("55");

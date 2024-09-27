@@ -1,0 +1,125 @@
+
+*
+{
+    font-size: medium;
+}
+
+body{
+    background: #ddb892;
+}
+
+.Search{
+
+  border-collapse: collapse; 
+  margin-top: 50px; 
+  
+}
+h3{
+    color: #b71d09;
+}
+.Search th, td {  
+    border: 1px solid #ddd;  
+    padding: 8px;  
+    text-align: left;  
+    }  
+      
+    .Search th {  
+    background: #f19c79;  
+  
+    color: white;  
+    }  
+
+.EmptyBorder{
+    border-top: 50px #d4e09b;
+    margin-top: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction:row;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+    form{
+    max-width: 200px;
+    margin: 20px auto;
+    padding : 50px;
+    border : 1px solid black;
+    border-radius :10px;
+   
+}
+
+.DB{
+    padding-left: 100px;
+}
+
+
+    
+label, input{
+    display:block;
+    margin-top: 5px;
+    width: 100%;
+
+}
+
+h1{
+    text-align: center  ;
+}
+
+button{
+    padding: 10px;
+    background-color: green;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.DB {  
+    border-collapse: collapse;  
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+    }  
+      
+    .DB th, td {  
+    border: 1px solid #a44a3f;  
+    padding: 8px;  
+    text-align: left;  
+    }  
+      
+    .DB th {  
+    background-color: #f19c79;  
+    color: white;  
+    
+    }  
+
+    .DB tr:hover {background-color: #f6f4d2;}
+
+    #searchinput{
+        font-size: larger;
+        width: 25%;
+       }
+
+   h2{
+    text-align: center;
+    color: #b71d09;
+   }
+
+   .OriginalPrice{
+    text-decoration: line-through;
+    color: red;
+   }
+
+.DiscountedPrice
+{
+    color: green;
+font-weight: bold;
+}
+
