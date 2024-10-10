@@ -1,0 +1,80 @@
+:root{
+    --font :"Poppins", sans-serif;
+    --color--neutral--lg :hsl(0, 0%, 98%);
+    --color--neutral--gb :hsl(229, 6%, 66%);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 25px 0;
+}
+body{
+    background: var(--color--neutral--lglg);
+    font-family: var(--font);
+    font-size: 15px;
+    color: var(--color--neutral--gb);
+    text-align: center;
+}
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    
+     .container{
+        max-width: 1200px;
+      text-align: center;
+        margin: 0 auto;
+        padding : 50px 20px;
+     }
+
+     main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
+     .cols{
+        margin: 0 25px;
+        flex: 1;
+     }
+
+     .card{
+        background: var(--color--neutral--lg);
+        padding: 25px;
+        margin-bottom:25px ;
+        text-align: right; 
+        border-radius: 5px;
+       
+     }
+     .card1{
+        border-top: 4px solid hsl(180, 62%, 55%)
+     }
+     
+     .card2{
+        border-top: 4px solid hsl(0, 78%, 62%);
+     }
+     .card3{
+        border-top: 4px solid hsl(34, 97%, 64%);
+     }
+     .card4{
+        border-top: 4px solid hsl(212, 86%, 64%);
+     }
+
+     .textbox{
+        text-align: left;
+     }
+
+     @media only screen and (max-width: 500px) {
+        main{
+            flex-direction: column;
+        }
+     }

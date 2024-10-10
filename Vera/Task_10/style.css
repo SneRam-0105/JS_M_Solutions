@@ -1,0 +1,82 @@
+:root{
+    --neutral-col: cornsilk;
+    --second-col: steelblue;
+    --dark-col: #333;
+    --light-col : #fff;
+    --other-col : red;
+    --square-col : pink;
+    --shadow-col: 5px 5px 5px var(--dark-col);
+}
+
+body{
+    background: var(--neutral-col);
+    color: var(--dark-col);
+}
+
+.round{
+    margin: 50px auto;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background: var(--second-col);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: larger;
+    color: white;
+    box-shadow: 0 4px 12px var(--other-col), 0 0 6px var(--dark-col) inset;
+    transition: height 3s 1s ease-in, width 3s ease-in-out;
+
+}
+
+.round:hover{
+    height: 400px;
+    width: 400px;
+    font: xx-large;
+    font-weight: bold;
+}
+
+.square{
+    margin: 50px auto;
+    width: 100px;
+    height:100px;
+    background: var(--square-col);
+    border-bottom: 2px solid var(--second-col);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: larger;
+    color: black;
+    transition: all 2s, background-color 3s 1s; 
+    
+}
+
+.square:hover{
+transform: rotate(180deg);
+background-color: var(--second-col);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+
+.Item{
+    background: rgb(59, 215, 212);
+    min-height: 200px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: var(--shadow-col), 8px 8px 8px var(--square-col);
+    color: white;
+    transition: all 2s ease-in-out;
+
+}
+
+.Item:hover{
+    box-shadow: 0 0 200px var(--square-col) inset;
+    background: lightsalmon;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 184, 113);
+    font-family: "Raleway" , Verdana, sans-serif;
+    
+    }
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+    main{
+        margin: 50px auto;
+        width: 300px;
+    }
+    .form-wrap{
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+.form-wrap h1, .form-wrap p{
+margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+input{
+    
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+  button{
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    background: coral;
+    border: none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 80%;
+
+  }
+
+  #Terms{
+    font-size: 12px;
+  }
+
+  .footer{
+    color:white
+  }
+
+  /*change backgrounds */
+
+  @media only screen and (max-width: 375px){
+  
+        body {
+            background: violet;
+
+                }
+    }
+  
+
+
+    @media only screen and (min-width: 376px) and (max-width:800px){
+  
+        body {  
+            background: blue;
+
+                }
+    }
+  

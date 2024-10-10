@@ -1,0 +1,112 @@
+:root{
+    --primary-color: #023e8a;
+    --font : Verdana, sans-serif;
+    --blue-color: rgb(32,32,137);
+    --neutral-color : #7088f0;
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--neutral-color);
+    font-family: var(--font);
+}
+
+.one{
+    display: grid;
+    max-width: 1000px;
+    background: rgb(226, 221, 221);
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows:100px 100px 100px 100px ;
+    gap :1rem;
+    margin: 70px auto;
+}
+
+.item{
+    background: #21c9ee;
+    color: black;
+}
+
+.item:first-child{
+    background: lightgreen;
+    color: black;
+   grid-column: 1 / span 4;   /*Grid column start and end is this line */
+}
+.item:nth-child(2){
+    background: rgb(120, 120, 224);
+    grid-column: 1 /span 1;
+    grid-row: 2 / span 2;
+    color: white;
+}
+
+.item:nth-child(9){
+    background: rgb(81, 211, 129);
+    color: black;
+   grid-column: 1 / span 4; 
+}
+
+.two{
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 0.4rem;
+    grid-auto-rows: 1fr;
+    grid-template-areas: 
+    "Columns Columns Columns Columns Columns"
+    "left content content content right"
+    "left content content content right"
+    "left content content content right"
+    "end end end end end"
+  ;
+}
+
+.Header{
+    grid-area: Columns;
+    background: blueviolet;
+    padding: 1rem;
+    min-height: 100px;
+}
+
+.left{
+    grid-area: left;
+    background: yellow;
+    padding: 1rem;
+}
+
+.main{
+    grid-area: content;
+    background: rgb(237, 126, 126);
+    padding: 1rem;
+
+}
+.aside{
+    grid-area: right;
+    background: pink;
+    padding: 1rem;
+}
+
+.footer{
+    grid-area: end;
+    background-color: red;
+    padding: 1rem;
+
+}
+
+.three{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem,100%), 1fr));
+    grid-gap: 1rem;
+    grid-auto-rows: 10rem ;
+   
+}
+
+.box{
+    background: #21c9ee;
+    padding: 1rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TASK 4</title>
+  </head>
+  <body>
+    <h1>Form Elements</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Input Example</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>type="text"</td>
+          <td>
+            <label for ="name">First Name:</label>
+            <input type="text" id="name">
+        </td>
+          <td>Defines a single line text that user can enter text into.</td>
+        </tr>
+
+        <tr>
+          <td>type = "Checkbox"</td>
+          <td><input type="Checkbox" name="first"> First choice </br>
+            <input type="Checkbox" name="second"> Second choice </br>
+            <input type="Checkbox" name="third"> Third choice </br>
+        </td>
+          <td>Checkbox is places after input tag. You can also replace text with label.</td>
+        </tr>
+
+        <tr>
+          <td>type = "radiobutton"</td>
+          <td><input type = "radio"  name="radio" id="gaga"> Male <br>
+            <input type = "radio"  name="radio" id="gaga">Female
+            <td>Radio buttons allows only one option.</td>
+            
+         </td>
+        
+        </tr>
+
+        <tr>
+          <td>type ="month"</td>
+          <td><input type = "month" name = "bday"></td>
+          <td>Displays a calendar to input your DOB.</td>
+          <!-- <input type="date" value="2017-06-01" /> date input type inputs date, month and year -->
+        </tr>
+        <tr>
+            <td>Select Example</td>
+            <td><select name ="songs">
+                <option value ="default">Select a song</option>
+                <option value ="Bombay">AR Rahman</option>
+                <option value ="Minnalae">Harris</option>
+                <option value ="Killer">Killer queen</option>
+            </select></td>
+            <td>By default it creates a dropdown with the option values mentioned.</td>
+          </tr>
+
+      </tbody>
+      
+    </table>
+    <form>
+        <input type="submit" value="submit">
+    </form>
+  </body>
+</html>

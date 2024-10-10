@@ -1,0 +1,92 @@
+*{      
+ margin: 5;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+    background-color: beige;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background: beige;
+    
+}
+.banner {
+    background-color:  rgb(157, 105, 8);
+    color: black;
+    text-align: center;
+    padding: 100px 0 ;
+    
+}
+.banner h1{
+    margin-bottom: 30px;
+}
+section{
+    padding: 30px;
+}
+
+ul
+{
+    list-style-type : none;
+    
+}
+li{
+    display: inline-block;
+    color: black;
+}
+li a{
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+li a:hover{
+    color: blue;
+}
+section img{
+    max-width: 30%;
+    margin: 15px 0;
+
+}
+section h1{
+    margin-bottom: 15px;
+}
+section p{
+    margin-bottom: 15px;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+thead{
+background:  rgb(157, 105, 8);
+color: white;
+}
+section th, td
+{
+    border: 1px solid white;   
+    text-align: left;
+    width: 200px;
+    padding: 15px;
+    
+}
+.odd{
+    background: rgb(212, 150, 68);
+    
+}
+.banner p
+{
+    color: white;
+}
+/*main > p  /* > selector selects the direct descendant always 
+{
+    color: blue;
+}/*
+
+
+/* section + p 
+{
+    background-color: aqua;
+} */
